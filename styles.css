@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+#screen {
+    width: 100px;
+    height: 15px;
+    border: 2px solid black;
+    padding: 5px;
+    text-align: right;
+    font-size: small;
+    font-family: helvetica, arial;
+    font-weight: 200;
+}
+
+.numbers {
+    flex: 0;
+    min-width: 80px;
+    padding: 5px;
+    border: solid black;
+}
+
+.operator {
+    flex: 0;
+    min-width: 120px;
+    padding: 5px;
+    border: solid black;
+}
+
+.equal {
+    flex: 0;
+    min-width: 8px;
+    padding: 5px;
+    padding-right: 20px;
+    border: solid black;
+}
